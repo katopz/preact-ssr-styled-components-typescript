@@ -1,0 +1,28 @@
+{
+  "name": "preact-cli-styled-components",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "preact watch",
+    "build": "preact build",
+    "serve": "serve build -s -n",
+    "start": "npm run -s build && npm run -s serve"
+  },
+  "eslintConfig": {
+    "extends": "preact"
+  },
+  "dependencies": {
+    "preact": "^10.5.12",
+    "preact-render-to-string": "^5.1.12",
+    "process": "^0.11.10",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.7",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "^7.20.0",
+    "eslint-config-preact": "^1.1.3",
+    "preact-cli": "^3.0.5",
+    "serve": "^11.3.2",
+    "typescript": "^4.1.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "reactNamespace": "preact",
+        "allowJs": true,
+        "jsx": "preserve",
+        "noEmit": true
+    },
+    "typeAcquisition": {
+        "enable": true
+    }
+}
